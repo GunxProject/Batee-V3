@@ -37,10 +37,10 @@ Auth Users can use admin commands without admin rights in your chat.
 
 HELP_2 = """✅<u>**Play Commands:**</u>
 
-**cplay** or **cstream **stands for channel play.
-**vplay** stands for video play.
+**cbatee** or **cstream **stands for channel play.
+**vbatee** stands for video play.
 
-/play or /vplay or /cplay  - Bot will start playing your given query on voice chat.
+/batee or /vbatee or /cbatee  - Bot will start playing your given query on voice chat.
 
 /stream or /cstream - Stream live links on voice chats.
 
@@ -50,7 +50,7 @@ HELP_2 = """✅<u>**Play Commands:**</u>
 ✅**<u>Bot's Server Playlists:</u>**
 /playlist  - Check Your Saved Playlist On Servers.
 /deleteplaylist - Delete any saved music in your playlist
-/play  - Start playing Your Saved Playlist from Servers."""
+/batee  - Start playing Your Saved Playlist from Servers."""
 
 
 HELP_3 = """✅<u>**Bot Commands:**</u>
@@ -68,8 +68,8 @@ HELP_3 = """✅<u>**Bot Commands:**</u>
 
 HELP_4 = """✅<u>**Extra  Commands:**</u>
 /start - Start the Yukki Music Bot.
-/help  - Get Commands Helper Menu with detailed explanations of commands.
-/ping- Ping the Bot and check Ram, Cpu etc stats of Yukki.
+/helps - Get Commands Helper Menu with detailed explanations of commands.
+/ping - Ping the Bot and check Ram, Cpu etc stats of Yukki.
 
 ✅<u>**Group Settings:**</u>
 /settings - Get a complete group's settings with inline buttons
@@ -84,7 +84,7 @@ HELP_4 = """✅<u>**Extra  Commands:**</u>
 
 4️⃣ **Clean Mode:** When enabled deletes the bot's messages after 5 mins from your group to make sure your chat remains clean and good.
 
-5️⃣ **Command Clean** : When activated, Bot will delete its executed commands (/play, /pause, /shuffle, /stop etc) immediately.
+5️⃣ **Command Clean** : When activated, Bot will delete its executed commands (/batee, /pause, /shuffle, /stop etc) immediately.
 
 6️⃣ **Play Settings:**
 
@@ -92,7 +92,7 @@ HELP_4 = """✅<u>**Extra  Commands:**</u>
 
 <u>Options in playmode:</u>
 
-1️⃣ **Search Mode** [ Direct or Inline] - Changes your search mode while you give /play mode. 
+1️⃣ **Search Mode** [ Direct or Inline] - Changes your search mode while you give /batee mode. 
 
 2️⃣ **Play Mode** [ Group or Channel] - Changes your Play mode to channel or group and streams music there only.
 
@@ -119,7 +119,7 @@ HELP_5 = """🔰**<u>ADD & REMOVE SUDO USERS :</u>**
 /get_log [Number of Lines] - Get log of your bot from heroku or vps. Works for both.
 
 📈**<u>STATS COMMANDS:</u>**
-/activevoice - Check active voice chats on bot.
+/activevc - Check active voice chats on bot.
 /activevideo - Check active video calls on bot.
 /stats - Check Bots Stats
 
