@@ -13,14 +13,14 @@
 # Bot Commands
 PING_COMMAND : ["ping", "पिंग"]
 START_COMMAND : ["start", "स्टार्ट"]
-HELP_COMMAND : ["help", "हेल्प"]
+HELP_COMMAND : ["helps", "हेल्प"]
 SETTINGS_COMMAND : ["settings", "setting", "सेटिंग्स", "सेटिंग"]
 RELOAD_COMMAND : ["admincache", "reload", "व्यवस्थापक कैश", "पुनः लोड करें"]
 STATS_COMMAND : ["stats", "आँकड़े"]
 LANGUAGE_COMMAND : ["lang", "language"]
 
 # Play Commands
-PLAY_COMMAND : ["play", "vplay", "cplay", "प्ले", "वीप्ले"]
+PLAY_COMMAND : ["batee", "vbatee", "cbatee", "प्ले", "वीप्ले"]
 PLAYMODE_COMMAND : ["playmode", "खेल विधा"]
 CHANNELPLAY_COMMAND : ["channelplay", "चैनलप्ले"]
 STREAM_COMMAND : ["stream", "धारा", "cstream"]
@@ -98,7 +98,7 @@ BLOCKED_COMMAND : ["blockedusers", "ब्लॉकेडूसेर्स"]
 SPEEDTEST_COMMAND : ["speedtest", स्पीडटेस्ट]
 
 #Voice chat commands
-ACTIVEVC_COMMAND : ["activevoice", "एक्टीवेवोईस"]
+ACTIVEVC_COMMAND : ["activevc", "एक्टीवेवोईस"]
 ACTIVEVIDEO_COMMAND : ["activevideo", "एक्टीवेविडो"]
 
 #Gban Commands
